@@ -1,0 +1,3 @@
+This project shows how to use the HoloLens_HandDetector C++ library by displaying a small cube where the first hand is detected.
+
+C++ library : https://github.com/MickaelSERENO/HoloLens_HandDetector
