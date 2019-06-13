@@ -1,3 +1,7 @@
 This project shows how to use the HoloLens_HandDetector C++ library by displaying a small cube where the first hand is detected.
 
 C++ library : https://github.com/MickaelSERENO/HoloLens_HandDetector
+
+Once the Visual Studio build is created, you have to manually modify the appxmanifest to add the following capabilities:
+<rescap:Capability Name="perceptionSensorsExperimental" />
+with rescap declared as xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
